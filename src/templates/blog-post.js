@@ -44,6 +44,7 @@ const BlogPostTemplate = ({ data, location }) => {
             padding: 0,
           }}
         >
+          TESTTTTTTT
           <li>
             {previous && (
               <Link to={previous.fields.slug} rel="prev">
