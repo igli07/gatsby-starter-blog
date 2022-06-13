@@ -21,6 +21,14 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `h3hvg39u8jtk`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: "Mq7MaDqBI2DvPop9LaEUO1MEAS0X_lV6JqiXR26iKe8",
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
